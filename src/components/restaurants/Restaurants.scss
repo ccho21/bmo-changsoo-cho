@@ -1,0 +1,48 @@
+@import '../../assets/styles/variables';
+@import '../../assets/styles/typography';
+
+.restaurant-card {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  &-thumb {
+    text-align: center;
+    & > img {
+      padding-top: 15px;
+      border-radius: 5px;
+      max-width: 100%;
+    }
+  }
+  &-header {
+    @extend .main-font-3;
+    .card-ratings {
+      text-align: center;
+      @extend .font-xs;
+    }
+    .card-reviews {
+      @extend .font-xs;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+  &-body {
+    @extend .main-font-2;
+  }
+  &-footer {
+    padding: 1rem 0;
+  }
+  & .badge {
+    font-size: 0.6rem;
+    background-color: $blue;
+    color: $white;
+    border-radius: 5rem;
+    padding: 5px;
+    margin: 0 2px;
+    display: inline-block;
+  }
+}

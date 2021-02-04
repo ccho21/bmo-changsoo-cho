@@ -1,0 +1,56 @@
+.monserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-lg {
+  font-size: 3rem;
+  @media screen and (max-width: 567px) {
+    font-size: 2.3rem;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 2.2rem;
+  }
+}
+.font-md {
+  font-size: 2.5rem;
+}
+.font-sm {
+  font-size: 2rem;
+  
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+    text-align:center;
+  }
+}
+.font-xs {
+  font-size: 1.2rem;
+  @media screen and (max-width: 567px) {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.main-font-1 {
+  @extend .font-lg;
+  font-weight: 700;
+}
+.main-font-2 {
+  @extend .monserrat;
+  @extend .font-xs;
+  font-weight: 500;
+  color: $dark-grey;
+}
+.main-font-3 {
+  @extend .monserrat;
+  @extend .font-sm;
+  font-weight: 500;
+  color: $off-black;
+}
+
+.main-font-4 {
+  @extend .monserrat;
+  @extend .font-sm;
+  font-weight: 700;
+  color: $off-black;
+}

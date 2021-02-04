@@ -1,0 +1,23 @@
+// SET ALERT
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+// RESTAURANTS
+export const GET_RESTAURANTS = 'GET_RESTAURANTS';
+export const SEARCH_RESTAURANTS = 'SEARCH_RESTAURANTS';
+export const RESTAURANT_ERROR = 'RESTAURANT_ERROR';
+
+// CITY
+export const GET_CITY = 'GET_CITY';
+export const CITY_ERROR = 'CITY_ERROR';
+
+// PARAMS
+export const GET_PARAMS = 'GET_PARAMS';
+export const ADD_PARAM = 'ADD_PARAM';
+
+// OPTIONS
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+export const GET_CUISINES = 'GET_CUISINES';
+export const GET_COLLECTIONS = 'GET_COLLECTIONS';
+
+export const OPTIONS_ERROR = 'COLLECTIONS_ERROR';
